@@ -1,0 +1,41 @@
+{
+    "project": {
+        "full_name": "La main à l'oreille",
+        "slug": "la-main-a-loreille",
+        "short_description": "Un dispositif sonore interactif à base de tags NFC et de lecteur MP3.",
+        "lang": "fr",
+        "license": "CC BY",
+        "about": "Un dispositif sonore interactif à base de tags NFC et de lecteur MP3.",
+        "status": "draft",
+        "links": [
+            {
+                "url": "https://rennes.humanlab.me/projet/la-main-a-loreille/",
+                "text": "page d'accueil du projet sur le GesLab",
+                "fa5_icon": "fas fa-home"
+            },
+            {
+                "url": "http://wikilab.myhumankit.org/index.php?title=Projets:La_main_a_loreille",
+                "text": "page wiki du projet sur le wiki du Humanlab",
+                "fa5_icon": "fab fa-wikipedia-w"
+            },
+            {
+                "url": "https://framateam.org/myhumankit/channels/la-main-a-loreille",
+                "text": "canal de discussion sur Framateam",
+                "fa5_icon": "fas fa-comments"
+            },
+            {
+                "url": "https://github.com/myhumankit/la-main-a-loreille",
+                "text": "code source de la documentation sur GitHub",
+                "fa5_icon": "fab fa-github"
+            }
+        ],
+        "contributors": [
+            {
+                "full_name": "Julien Lebunetel",
+                "email": "julien@myhumankit.org",
+                "github_username": "jlebunetel",
+                "role": "Fabmanager référent"
+            }
+        ]
+    }
+}
