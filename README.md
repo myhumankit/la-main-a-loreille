@@ -39,7 +39,7 @@ Si vous souhaitez contribuer au projet, merci de créer une _issue_ ou de _forke
 Ce projet est diffusé sous la licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de details.
 
 ## Contributeurs
- * **Bérengère Amiot** (porteur de projet)
+ * **Bérengère Amiot** (porteur de projet) - [amiotb](https://github.com/amiotb)
  * **Julien Lebunetel** - [jlebunetel](https://github.com/jlebunetel)
 
 ---
@@ -79,5 +79,5 @@ If you'd like to contribute, please raise an issue or fork the repository and us
 The code in this project is licensed under MIT license. See the [LICENSE](LICENSE) file for details.
 
 ## Contributors
- * **Bérengère Amiot** (project holder)
+ * **Bérengère Amiot** (project holder) - [amiotb](https://github.com/amiotb)
  * **Julien Lebunetel** - [jlebunetel](https://github.com/jlebunetel)
