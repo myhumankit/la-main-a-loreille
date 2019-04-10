@@ -60,7 +60,7 @@
             {
                 "title": "Remise à zéro du dispositif",
                 "duration": 300,
-                "content": "À chaque fois qu'un nouveau tag est lu par le dispositif, son *UID* est sauvgardé dans l'EEPROM (Un espace de stockage non volatile du microcontrôleur) et associé à un numéro de piste qui s'affiche sur l'écran à cristaux liquides.\nCe numéro de piste correspond à un fichier au format *MP3* stocké dans la carte micro SD.\nSi l'on souhaite réinitialiser le dispositif et effacer les *UID* sauvegardés, il suffit de flasher le microcontrôleur à l'aide de l'*IDE Arduino* avec le programme **EEPROM_Reset.ino**, ce qui a pour effert de remettre à zéro le premier octet de l'EEPROM dans lequel est enregistré le nombre de tags connus.\nEnsuite, flasher à nouveau le microcontrôleur avec le programme principal.",
+                "content": "À chaque fois qu'un nouveau tag est lu par le dispositif, son *UID* est sauvgardé dans l'EEPROM (Un espace de stockage non volatile du microcontrôleur) et associé à un numéro de piste qui s'affiche sur l'écran à cristaux liquides.\nCe numéro de piste correspond à un fichier au format *MP3* stocké dans la carte micro SD.\n\nSi l'on souhaite réinitialiser le dispositif et effacer les *UID* sauvegardés, il suffit de flasher le microcontrôleur à l'aide de l'*IDE Arduino* avec le programme **EEPROM_Reset.ino**, ce qui a pour effert de remettre à zéro le premier octet de l'EEPROM dans lequel est enregistré le nombre de tags connus.\n\nEnsuite, flasher à nouveau le microcontrôleur avec le programme principal.",
                 "inputs": [
                     {
                         "file": {
@@ -102,6 +102,11 @@
                         }
                     }
                 ]
+            },
+            {
+                "title": "Utilisation",
+                "duration": 300,
+                "content": "# Préparation de la carte micro SD\nSur la carte micro SD, l'ensemble des fichers *MP3* doivent être placés dans un dossier nommé **01**.\nLe nommage de ces fichiers répond à un formalisme assez strict :\n\n * un préfixe **001_**, **002_**, etc. ;\n * pas de caractères spéciaux (pas d'accents, guillemets, etc.) ;\n * pas d'espaces (les remplacer par des tirets bas par exemple).\n\nExemple de de contenu :\n```\n01/\n├── 001_Muse_Resistance.mp3\n├── 002_Muse_Starlight.mp3\n├── 003_Muse_Uprising.mp3\n├── 004_Radiohead_Fake_Plastic_Trees.mp3\n├── 005_Radiohead_Karma_Police.mp3\n```\n\n# Usage\n * Lorsque l'on place un tag sur le lecteur, la piste associée à son numéro est jouée ;\n * Si ce tag n'a jamais été lu auparavant, un numéro lui est attribué (il s'affiche sur l'écran à cristaux liquides), puis la piste associée à ce numéro est jouée ;\n * Lorsque l'on enlève le tag du lecteur, la musique est mise en pause. Si l'on repose le tag, la musique reprend."
             }
         ]
     }
