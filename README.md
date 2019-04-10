@@ -4,7 +4,7 @@
 
 Un dispositif sonore interactif à base de tags NFC et de lecteur MP3.
 
-![featured_image](https://raw.githubusercontent.com/myhumankit/myworkshop/master/images/default_featured_image.jpg)
+![featured_image](images/la-main-a-loreille.jpg)
 
 ## Liens
  * [documentation du projet](https://docs.humanlab.me/myhumankit/la-main-a-loreille)

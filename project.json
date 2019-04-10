@@ -32,15 +32,23 @@
         "contributors": [
             {
                 "full_name": "Bérengère Amiot",
+                "role": "Porteur de projet",
                 "github_username": "amiotb",
-                "twitter_username": "BerengereAmiot",
-                "role": "Porteur de projet"
+                "twitter_username": "BerengereAmiot"
             },
             {
                 "full_name": "Julien Lebunetel",
+                "role": "Fabmanager référent",
                 "email": "julien@myhumankit.org",
-                "github_username": "jlebunetel",
-                "role": "Fabmanager référent"
+                "github_username": "jlebunetel"
+            }
+        ],
+        "featured_images": [
+            {
+                "image": {
+                    "url": "images/la-main-a-loreille.jpg",
+                    "caption": "La main à l'oreille"
+                }
             }
         ]
     }
