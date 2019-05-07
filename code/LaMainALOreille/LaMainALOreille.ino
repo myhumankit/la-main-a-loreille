@@ -182,7 +182,7 @@ void setup() {
   // set up the LCD's number of columns and rows:
   lcd.begin(8, 2);
   // Print a message to the LCD.
-  textToLCD_8x2("Starting", "...");
+  textToLCD_8x2(" Demarra", "ge ...");
 
   // RFID Reader
   // ************************************************************
@@ -208,12 +208,12 @@ void setup() {
   // ************************************************************
   tagNumbers = EEPROM.read(0x00); // The first byte of the EEPROM is used to store the number of known tags
   tagUIDsInit(tagNumbers);
-  textToLCD_8x2("Stored t", "ags: ");
+  textToLCD_8x2("Tags con", "nus: ");
   lcd.print(tagNumbers);
   delay(3000);
 
   // Let's go!
-  textToLCD_8x2("Wait for", " tag ...");
+  textToLCD_8x2(" Posez u", "n objet");
 }
 
 void loop() {
@@ -291,10 +291,12 @@ void loop() {
 
         // Stop the music!
         //stopMusic();
+
+        // Pause the music!
         pauseMusic();
 
         resetCurrentTag();
-        textToLCD_8x2("Wait for", " tag ...");
+        textToLCD_8x2(" Posez u", "n objet");
       }
       is_not_removed--;
     }
